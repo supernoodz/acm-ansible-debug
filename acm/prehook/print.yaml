@@ -1,0 +1,14 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: ansible-print
+  namespace: ansible-print
+  labels:
+    app.kubernetes.io/name: print
+spec:
+  tower_auth_secret: testbsu
+  job_template_name: print
+  extra_vars:
+    #target_clusters: aws
+    #APPLICATION: Etherpad
