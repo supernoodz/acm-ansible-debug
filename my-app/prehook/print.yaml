@@ -7,5 +7,4 @@ spec:
     tower_auth_secret: testbsu
     job_template_name: print
     extra_vars:
-      variable1: value1
-      variable2: value2
+      phase: prehook
