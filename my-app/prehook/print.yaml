@@ -2,7 +2,7 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-    name: hive-cluster-gitrepo
+    name: print-prehook
 spec:
     tower_auth_secret: testbsu
     job_template_name: print
