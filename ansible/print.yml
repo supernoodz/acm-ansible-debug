@@ -8,3 +8,7 @@
      ansible.builtin.debug:
         msg:
         - "Your Ansible Job is running"
+
+   - name: Print all available facts
+     ansible.builtin.debug:
+       var: ansible_facts
