@@ -7,7 +7,7 @@
    - name: Prints messages, 
      ansible.builtin.debug:
         msg:
-        - "Your Ansible Job is running"
+        - "Running {{phase}}"
         
 #   - debug: msg="Updating Application {{appName}} on {{target_clusters}}"
 

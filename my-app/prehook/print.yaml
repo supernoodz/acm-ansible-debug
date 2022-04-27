@@ -7,4 +7,4 @@ spec:
     tower_auth_secret: testbsu
     job_template_name: print
     extra_vars:
-      phase: prehook
+      phase: "application prehook"
