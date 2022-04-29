@@ -7,5 +7,5 @@
    - name: Prints messages, 
      ansible.builtin.debug:
         msg:
-        - "Running {{phase}} on {{ item }}"
+        - "Running {{policy.name}} on {{ item }}"
      with_items: "{{ target_clusters }}"
