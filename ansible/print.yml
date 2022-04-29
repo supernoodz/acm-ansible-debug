@@ -7,11 +7,4 @@
    - name: Prints messages, 
      ansible.builtin.debug:
         msg:
-        - "Running {{phase}} on {{ item }}"
-     with_items: "{{ target_clusters }}"
-        
-#   - debug: msg="Updating Application {{appName}} on {{target_clusters}}"
-
-#   - name: Print all available facts
-#     ansible.builtin.debug:
-#       var: ansible_facts
+        - "Running {{phase}}"
