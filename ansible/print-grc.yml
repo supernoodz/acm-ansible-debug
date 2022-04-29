@@ -7,4 +7,4 @@
    - name: Prints messages, 
      ansible.builtin.debug:
         msg:
-        - "Running {{policy.name}}"
+        - "{{policy_name}} {{cluster_name}}"
