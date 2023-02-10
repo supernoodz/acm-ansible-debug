@@ -4,7 +4,7 @@ kind: AnsibleJob
 metadata:
     name: print-prehook
 spec:
-    tower_auth_secret: testbsu
+    tower_auth_secret: aap-controller
     job_template_name: print
     extra_vars:
       phase: "application prehook"
